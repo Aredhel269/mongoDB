@@ -1,0 +1,10 @@
+{
+    "_id": "ObjectId",
+    "brand": "String",
+    "graduation_L": "Number",
+    "graduation_R": "Number",
+    "glass_color_L": "String",
+    "glass_color_R": "String",
+    "frame_type": "String",
+    "price": "Number"
+  }
