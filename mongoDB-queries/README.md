@@ -1,4 +1,3 @@
-```markdown
 # MongoDB Queries
 
 This exercise focuses on performing queries on a MongoDB database that manages information about restaurants in New York City. Here, you will find queries to carry out various operations on the restaurants collection.
