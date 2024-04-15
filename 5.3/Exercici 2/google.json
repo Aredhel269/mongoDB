@@ -1,0 +1,7 @@
+{
+  "_id": "ObjectId",
+  "brand": "String",
+  "frames": "String",
+  "provider": "id_provider",
+  "price": "Number"
+}

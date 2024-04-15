@@ -1,0 +1,66 @@
+{
+  "_id": "ObjectId",
+  "name": "String",
+  "adress": "String",
+  "telephone": "Number",
+  "email": "String"
+}
+{
+    id```javascript
+    const { Your_function } = require(‘Your_script’); //
+    
+    // Test case 1:
+    console.log("#Test case 1:");
+    console.assert(Object.keys(Your_function({
+      _id: "ObjectId",
+      name: "String",
+      adress: "String",
+      telephone: "Number",
+      email: "String"
+    })) === ["_id", "name", "adress", "telephone", "email"], "Test case 1 failed");
+    
+    // Test case 2:
+    console.log("#Test case 2:");
+    console.assert(Object.keys(Your_function({
+      id: "ObjectId",
+      name: "String",
+      adress: "String",
+      telephone: "Number",
+      email: "String"
+    })) === ["id", "name", "adress", "telephone", "email"], "Test case 2 failed");
+    
+    // Test case 3:
+    console.log("#Test case 3:");
+    console.assert(Object.keys(Your_function({
+      _id: "ObjectId",
+      name: "String",
+      adress: "String",
+      telephone: "Number",
+      email: "String",
+      age: "Number"
+    })) === ["_id", "name", "adress", "telephone", "email", "age"], "Test case 3 failed");
+    
+    // Test case 4:
+    console.log("#Test case 4:");
+    console.assert(Object.keys(Your_function({
+      id: "ObjectId",
+      name: "String",
+      adress: "String",
+      telephone: "Number",
+      email: "String",
+      age: "Number"
+    })) === ["id", "name", "adress", "telephone", "email", "age"], "Test case 4 failed");
+    
+    // Test case 5:
+    console.log("#Test case 5:");
+    console.assert(Object.keys(Your_function({
+      _id: "ObjectId",
+      name: "String",
+      adress: "String",
+      telephone: "Number",
+      email: "String",
+      other: "String"
+    })) === ["_id", "name", "adress", "telephone", "email", "other"], "Test case 5 failed");
+    ```
+    
+}
