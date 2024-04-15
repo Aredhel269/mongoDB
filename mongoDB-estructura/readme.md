@@ -53,6 +53,5 @@ If you encounter any issues or have any questions, please create a new issue on 
 
 ## License
 
-This project is licensed under the MIT License.
-```
+This project is licensed under the [ISC License](https://opensource.org/licenses/ISC).
 
